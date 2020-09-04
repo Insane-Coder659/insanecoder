@@ -129,11 +129,11 @@
         <section id="aw-contact" class="aw-section">
             <h3>Contact me</h3>
 
-            <form action="" method="">
-                <input type="text" name="name" placeholder="Name" />
-                <input type="text" name="surname" placeholder="Surname" />
-                <input type="email" name="email" placeholder="Email" />
-                <textarea placeholder="Your Message"></textarea>
+            <form action="./submit.php" method="POST">
+                <input type="text" name="name" placeholder="Name" required/>
+                <input type="text" name="surname" placeholder="Surname" required/>
+                <input type="email" name="email" placeholder="Email" required/>
+                <textarea placeholder="Your Message" name="yourmessage" required></textarea>
 
                 <input type="submit" value="Submit" />
             </form>
