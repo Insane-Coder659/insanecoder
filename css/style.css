@@ -445,20 +445,20 @@ footer .aw-social-icons li a:hover {
 /* Animations */
 
 .aw-pulsate {
-    -webkit-animation: pulsate 3s ease-in-out;
+    -webkit-animation: pulsate 6s ease-in-out;
     -webkit-animation-iteration-count: infinite;
-    opacity: .3;
+    opacity: .6;
 }
 
 @-webkit-keyframes pulsate {
     0% {
-        opacity: .3;
+        opacity: .1;
     }
     50% {
         opacity: 1;
     }
     100% {
-        opacity: .3;
+        opacity: .1;
     }
 }
 
