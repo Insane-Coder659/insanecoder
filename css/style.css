@@ -574,6 +574,15 @@ footer .aw-social-icons li a:hover {
     color: blue;
 }
 
-.icon-twitter:hover {
-    color: lightblue;
+.icon-youtube:hover {
+    background-color: red;
+}
+
+.intro-video {
+    margin: 0 auto;
+}
+
+#intro-para {
+    margin: 0 auto;
+    ;
 }
